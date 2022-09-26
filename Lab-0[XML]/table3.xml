@@ -4,9 +4,10 @@
     <id> 1 </id>
     <name> John Doe </name>
     <address>
-      <house> H#38 </house>
-      <road> R#3 </road>
-      <area> Banani </area>
+      <flat> </flat>
+      <house> H#38, </house>
+      <road> R#3, </road>
+      <area> Banani, </area>
       <city> Dhaka</city>
     </address>
     <department> Sales </department>
@@ -17,10 +18,11 @@
     <id> 2 </id>
     <name> Mark Zukerburg </name>
     <address>
-      <house> </house>
-      <road> </road>
-      <area> </area>
-      <city> </city>
+      <flat> Flat# A/1, </flat>
+      <house> H#20, </house>
+      <road> R#18</road>
+      <area> Mirpur, </area>
+      <city> Dhaka </city>
     </address>
     <department> Accounts </department>
     <salary> $12000 </salary>
@@ -30,9 +32,10 @@
     <id> 3 </id>
     <name> Ala Voski </name>
     <address>
-      <house> </house>
-      <road> </road>
-      <area> </area>
+      <flat>  </flat>
+      <house> H#38, </house>
+      <road> R#3, </road>
+      <area> Motijheel </area>
       <city> </city>
     </address>
     <department> Human Resource </department>

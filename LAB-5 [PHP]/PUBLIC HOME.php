@@ -1,3 +1,6 @@
+<?php
+
+?>
 <html>
 <head>
     <title>LAB1</title>
@@ -7,18 +10,12 @@
     
     <table border="1" width="100%" cellpadding="0" cellspacing="0">
         <tr>
-            <td colspan="3"><center><h1>FIRST HTML SITE</h1></center></td>
+            <td colspan="3"><h1>Company</h1></td>
         </tr>
 
         <tr>
-            <td>
-                <h4>Link </h4>
-                <a href="Page-1.html"> Page-1 </a>
-                <a href="Page-2.html"> Page-2 </a>
-            </td>
+            <td><h3>Welcome to xCompany</h3> </td>
             
-            <td><center><h6>FIRST </h6></center></td>
-            <td><center><h6>FIRST </h6></center></td>
         </tr>
 
         <tr>
@@ -28,13 +25,9 @@
 
 
     </table>
-   
-
-    
-
-    <img src="aiub-logo.svg" width="100px" height="100px" />
 
 
 
 </body>
 </html>
+

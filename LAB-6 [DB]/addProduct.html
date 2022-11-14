@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>ADD PRODUCT</title>
+</head>
+<style>
+    fieldset {
+        display: inline-block;
+        width: 50vw;
+    }
+</style>
+<body>
+    <form  action="addProduct.php" method="POST">
+        <fieldset>
+            <legend><h1>ADD PRODUCT</h1></legend>
+            <label for="name">Name</label>
+            <br>
+            <br>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="BuyingPrice">Buying Price</label>
+            <br>
+            <br>
+            <input type="number" name="BuyingPrice" id="BuyingPrice">
+            <br>
+            <br>
+            <label for="SellingPrice">Selling Price</label>
+            <br>
+            <br>
+            <input type="number" name="SellingPrice" id="SellingPrice">
+            <br>
+            <br>
+            <hr>
+            <br>
+            <input type="checkbox" name="display" id="display">
+            <label for="display">Display</label>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <input type="submit" value="SAVE">
+        </fieldset>
+    </form>
+</body>
+</html>

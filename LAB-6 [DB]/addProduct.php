@@ -1,29 +1,12 @@
-<?php 
+<?php
+$name = $_POST['name'];
+$BuyingPrice = $_POST['BuyingPrice'];
+$SellingPrice = $_POST['SellingPrice'];
 
-    $con = mysqli_connect('localhost', 'root', '', 'lab6');
+$connection = mysqli_connect('localhost', 'root', '', 'lab6');
+$sql = "INSERT INTO addproduct VALUES('{$Name}', '{$BuyingPrice}', '{$SellingPrice}', '')";
+$status = mysqli_query($connection, $sql);
 
-    // if($con){
-    //     echo "success";
-    // }else{
-    //     echo "error";
-    // }
-
-    $sql = "select * from addProduct";
-    $result = mysqli_query($con, $sql);
-
-    echo "<table border=1> 
-            <tr>
-                <th>NAME</th>
-                <th>PROFIT</th>
-            </tr>";
-
-    while($data  = mysqli_fetch_assoc($result)){
-        echo    "<tr>
-                    <td>{$data['Name']}</td>        
-                    <td>{$data['Profit']}</td>        
-                           
-                </tr>";
-    }
-
-    echo "</table>";
-?>
+if ($status) {
+    header('location: ShowProduct.php');
+}
